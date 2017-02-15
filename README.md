@@ -1,4 +1,4 @@
-# adbio-lincs-app
+# Adbio Lincs App
 The Linc Visualization Tool is web-based network visualization tool, which facilitate the visual exploration of the LINCS L1000 dataset as interactive space. Each node (circle) represents an experiment performed. Edges (lines) represent a similarity score, meaning they have a common signature based on the up and down regulated genes present in that expeiment. Nodes are clustered by cell line, and colored by perturbation (default).
 
 # Usage
@@ -19,4 +19,5 @@ Start database using mongodb. Create folder called db in location of the jar fil
 
 Run
 ```sh
-java -jar jarFileName```
+java -jar jarFileName
+```
